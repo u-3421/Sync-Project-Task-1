@@ -57,7 +57,7 @@ class OTPVerification:
         # Set up the email server and login credentials
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
-        server.login('udayrajms2023@gmail.com',"cefrvkyloxqijysc")
+        server.login('your_email@gmail.com',"password")
 
         # Compose the email message
         subject = "OTP Verification"
